@@ -9,9 +9,9 @@ public class App {
         thread.start();
         thread1.start();
         thread2.start();
-        thread.join();
-        thread1.join();
-        thread2.join();
+        //thread.join();
+       // thread1.join();
+      //  thread2.join();
         System.out.println("Acabou a corrida");
     }
 }
